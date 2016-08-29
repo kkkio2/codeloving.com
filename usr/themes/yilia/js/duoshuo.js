@@ -871,7 +871,7 @@ function sskos(e) {
                         } else if (avatar_url.indexOf("gravatar.com") != -1) {
                             return avatar_url.replace(/http:\/\/\w+\.gravatar\.com/,"//secure.gravatar.com")
                         } else {
-                            return "//wujunze.com/headPhoto.php?url=" + avatar_url;
+                            return "//codeloving.com/headPhoto.php?url=" + avatar_url;
                         }
                     }
                 },

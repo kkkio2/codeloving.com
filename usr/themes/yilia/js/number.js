@@ -1,5 +1,5 @@
 /**
- * Created by wujunze on 16/2/3.
+ * Created by codeloving on 16/2/3.
  */
 jQuery(document).ready(function($) {
     $("html,body").click(function(e){

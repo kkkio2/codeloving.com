@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: wujunze
+ * User: codeloving
  * Date: 2016/8/12
  * Time: 17:07
  */
@@ -9,7 +9,7 @@ error_reporting(0);
 if(isset($_GET['url']) && isset($_SERVER['HTTP_REFERER'])){
     $url = urldecode($_GET['url']);
     $referer = parse_url($_SERVER['HTTP_REFERER']);
-    if(preg_match("/^http/",$url) && $referer['host']=='wujunze.com'){//防盗链验证
+    if(preg_match("/^http/",$url) && $referer['host']=='codeloving.com'){//防盗链验证
         $opts = array('http'=>array(
             'method'=>'GET',
             'timeout'=>10

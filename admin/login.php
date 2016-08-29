@@ -13,7 +13,7 @@ include 'header.php';
 ?>
 <div class="typecho-login-wrap">
     <div class="typecho-login">
-        <h1><a href="http://wujunze.com" class="">WuJunze</a></h1>
+        <h1><a href="http://codeloving.com" class="">codeloving</a></h1>
         <form action="<?php $options->loginAction(); ?>" method="post" name="login" role="form">
             <p>
                 <label for="name" class="sr-only"><?php _e('用户名'); ?></label>

@@ -7,7 +7,7 @@
             &copy;  <?php echo date('Y');?>  <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a>|<a href="" id="StranLink">繁体中文</a>|<a href="http://www.miitbeian.gov.cn/" rel="nofollow"  target="_blank">京ICP备16000939号</a>
           </div>
           <div class="footer-right">
-            <a href="http://typecho.org/" target="_blank">Typecho</a>  Theme <a href="https://github.com/wujunze/wujunze.com.git" target="_blank">Yilia</a> by Wujunze
+            <a href="http://typecho.org/" target="_blank">Typecho</a>  Theme <a href="https://github.com/kkkio2/codeloing.com.git" target="_blank">Yilia</a> by codeloving
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@
     <SCRIPT language=javascript>
       function show_date_time(){
         window.setTimeout("show_date_time()", 1000);
-        BirthDay=new Date("09/14/2015 00:00:00");//这个日期是可以修改的
+        BirthDay=new Date("06/06/2016 00:00:00");//这个日期是可以修改的
         today=new Date();
         timeold=(today.getTime()-BirthDay.getTime());
         sectimeold=timeold/1000
@@ -75,16 +75,16 @@
                 var htmlData = ''
                     + '著作权归作者所有。<br>'
                     + '商业转载请联系作者获得授权，非商业转载请注明出处。<br>'
-                    + '作者：Wujunze<br>'
+                    + '作者：codeloving<br>'
                     + '链接：' + window.location.href + '<br>'
-                    + '来源：wujunze.com<br><br>'
+                    + '来源：codeloving.com<br><br>'
                     + window.getSelection().toString();
                 var textData = ''
                     + '著作权归作者所有。\n'
                     + '商业转载请联系作者获得授权，非商业转载请注明出处。\n'
-                    + '作者：Wujunze\n'
+                    + '作者：codeloving\n'
                     + '链接：' + window.location.href + '\n'
-                    + '来源：wujunze.com\n\n'
+                    + '来源：codeloving.com\n\n'
                     + window.getSelection().toString();
 
                 clipboardData.setData('text/html', htmlData);

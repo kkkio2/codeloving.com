@@ -1,5 +1,5 @@
 /**
- * Created by wujunze on 16/2/4.
+ * Created by codeloving on 16/2/4.
  */
 var Default_isFT = 0 //默认是否繁体，0-简体，1-繁体
 var StranIt_Delay = 30 //翻译延时毫秒（设这个的目的是让网页先流畅的显现出来）
