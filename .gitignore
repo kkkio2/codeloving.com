@@ -1,3 +1,3 @@
-.gitignore
-/baidu
-/tools
+/.idea
+config.inc.php
+
