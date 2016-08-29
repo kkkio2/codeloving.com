@@ -1,7 +1,7 @@
-# robots.txt generated at https://wujunze.com/
+# robots.txt generated at http://www.codeloving.com/
 User-agent: *
 Disallow: /admin/
 Disallow: /install/
 Disallow: /baidu/
 Disallow: /tools/
-Sitemap: https://wujunze.com/baidu_sitemap.xml
+Sitemap: http://www.codeloving.com/baidu_sitemap.xml

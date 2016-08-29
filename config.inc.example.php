@@ -52,7 +52,7 @@ require_once 'Typecho/Router.php';
 Typecho_Common::init();
 
 /** 定义数据库参数 */
-$db = new Typecho_Db('Pdo_Mysql', 'wujunze_');
+$db = new Typecho_Db('Pdo_Mysql', 'blog_');
 $db->addServer(array (
   'host' => 'localhost',
   'user' => 'XXYY',
