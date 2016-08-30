@@ -4,7 +4,7 @@
           <div><SPAN id=span_dt_dt></SPAN></div>
           <br>
           <div class="footer-left">
-            &copy;  <?php echo date('Y');?>  <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a>|<a href="" id="StranLink">繁体中文</a>|<a href="http://www.miitbeian.gov.cn/" rel="nofollow"  target="_blank">京ICP备16000939号</a>
+            &copy;  <?php echo date('Y');?>  <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a>|<a href="" id="StranLink">繁体中文</a>|<a href="http://www.miitbeian.gov.cn/" rel="nofollow"  target="_blank">鲁ICP备14020990号</a>
           </div>
           <div class="footer-right">
             <a href="http://typecho.org/" target="_blank">Typecho</a>  Theme <a href="https://github.com/kkkio2/codeloing.com.git" target="_blank">Yilia</a> by codeloving
@@ -15,18 +15,18 @@
   </div>
   <script>
   var yiliaConfig = {
-		fancybox: true,
-		mathjax: undefined,
-		animate: true,
-		isHome: <?php echo $this->is('index')?'true':'false'; ?>,
-		isPost: <?php echo $this->is('post')?'true':'false'; ?>,
-		isArchive: <?php echo $this->is('archive')?'true':'false'; ?>,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false,
-		prettify: true,
-		base_url: "<?php $this->options->themeUrl();?>"
-	}</script>
+        fancybox: true,
+        mathjax: undefined,
+        animate: true,
+        isHome: <?php echo $this->is('index')?'true':'false'; ?>,
+        isPost: <?php echo $this->is('post')?'true':'false'; ?>,
+        isArchive: <?php echo $this->is('archive')?'true':'false'; ?>,
+        isTag: false,
+        isCategory: false,
+        open_in_new: false,
+        prettify: true,
+        base_url: "<?php $this->options->themeUrl();?>"
+    }</script>
     <SCRIPT language=javascript>
       function show_date_time(){
         window.setTimeout("show_date_time()", 1000);
@@ -49,7 +49,7 @@
     </SCRIPT>
     <script>
         window.onblur = function() {
-            document.title = "发呆- ( ゜- ゜)つロ ";
+            document.title = "发呆 ( ゜- ゜)";
             $("#web-icon").attr('href',"<?php $this->options->themeUrl('loss.ico'); ?>");
         window.onfocus = function() {
             document.title = "<?php $this->archiveTitle(array(
