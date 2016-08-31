@@ -4,7 +4,7 @@
           <div><SPAN id=span_dt_dt></SPAN></div>
           <br>
           <div class="footer-left">
-            &copy;  <?php echo date('Y');?>  <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a>|<a href="" id="StranLink">繁体中文</a>|<a href="http://www.miitbeian.gov.cn/" rel="nofollow"  target="_blank">鲁ICP备14020990号</a>
+            &copy;  <?php echo date('Y');?>  <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a>|<a href="" id="StranLink">繁体中文</a>|<a href="http://www.miitbeian.gov.cn/" rel="nofollow"  target="_blank">鲁ICP备14020990号</a>|<?php echo $this->options->analysis; ?>
           </div>
           <div class="footer-right">
             <a href="http://typecho.org/" target="_blank">Typecho</a>  Theme <a href="https://github.com/kkkio2/codeloing.com.git" target="_blank">Yilia</a> by codeloving

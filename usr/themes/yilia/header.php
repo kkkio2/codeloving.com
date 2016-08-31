@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="<?php $this->options->themeUrl();?>css/font-awesome.css" type="text/css">
 <!--[if lte IE 8]><script>window.location.href='http://cdn.dmeng.net/upgrade-your-browser.html?referrer='+location.href;</script><![endif]-->
 <?php $this->header(); ?>
-<?php echo $this->options->analysis; ?>
 </head>
 <body>
 <div id="container">
